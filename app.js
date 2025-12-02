@@ -1,9 +1,9 @@
 // إعدادات OAuth سلة - عدّل هذه القيم من لوحة Salla Partners
-const SALLA_CLIENT_ID = "ee985964-8702-4618-a36f-4582b90268fe";
+const SALLA_CLIENT_ID = "";
 // ملاحظة: في بيئة الإنتاج لا يُفضّل وضع CLIENT_SECRET في الواجهة الأمامية
 // بل يفضّل تنفيذ طلب /token من خادمك أنت ثم إعادة التوكن للواجهة.
-const SALLA_CLIENT_SECRET = "c58c7ac54cfa88dbda1bdd15306bf66b";
-const SALLA_REDIRECT_URI = "http://localhost:5500/index.html";
+const SALLA_CLIENT_SECRET = "";
+const SALLA_REDIRECT_URI = "";
 // اترك SALLA_SCOPES فارغًا أو عدّله فقط إذا كنت متأكدًا من القيم المدعومة من سلة
 const SALLA_SCOPES = "";
 const SALLA_AUTH_URL = "https://accounts.salla.sa/oauth2/auth";
